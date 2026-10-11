@@ -1,0 +1,27 @@
+name: Redeploy hub site
+
+# Tells the public site repo to rebuild whenever team data changes here.
+# Needs the TEAM_DATA_TOKEN secret (same token as the site repo).
+# The site repo defaults to this repo's name without "-data"; set the variable SITE_REPO to override.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger site deploy
+        env:
+          TOKEN: ${{ secrets.TEAM_DATA_TOKEN }}
+          SITE_REPO: ${{ vars.SITE_REPO }}
+        run: |
+          repo="${SITE_REPO:-${GITHUB_REPOSITORY%-data}}"
+          curl -fsS -X POST \
+            -H "Authorization: Bearer $TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/$repo/dispatches" \
+            -d '{"event_type":"team-data-updated"}'
+          echo "Asked $repo to redeploy."
