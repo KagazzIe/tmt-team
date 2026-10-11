@@ -1,7 +1,7 @@
 {
   "format": "tmt-rotations",
   "version": 2,
-  "updated": 1791749226407,
+  "updated": 1791755385478,
   "views": {
     "bs|0|left": {"pos":{"S":[258,150],"OH1":[88,48],"MB1":[72,207],"OPP":[238,58],"OH2":[158,267],"MB2":[150,48]}},
     "bs|0|mid": {"pos":{"S":[258,150],"OH1":[62,48],"MB1":[188,265],"OPP":[238,58],"OH2":[60,170],"MB2":[150,48]}},
@@ -9,8 +9,8 @@
     "bs|1|left": {"pos":{"S":[258,150],"OH1":[158,267],"MB1":[72,207],"OPP":[238,58],"OH2":[88,48],"MB2":[150,48]}},
     "bs|1|mid": {"pos":{"S":[258,150],"OH1":[60,170],"MB1":[188,265],"OPP":[238,58],"OH2":[62,48],"MB2":[150,48]}},
     "bs|1|off": {"pos":{"S":[258,150],"OH1":[60,170],"MB1":[158,267],"OPP":[238,58],"OH2":[62,48],"MB2":[150,48]}},
-    "bs|2|left": {"pos":{"S":[258,150],"OH1":[72,207],"MB1":[150,48],"OPP":[238,58],"OH2":[88,48],"MB2":[158,267]}},
-    "bs|2|mid": {"pos":{"S":[258,150],"OH1":[188,265],"MB1":[150,48],"OPP":[238,58],"OH2":[62,48],"MB2":[60,170]}},
+    "bs|2|left": {"pos":{"S":[258,150],"OH1":[72,207],"MB1":[150,48],"OPP":[238,58],"OH2":[88,48],"MB2":[158,267]},"libero":"OH1"},
+    "bs|2|mid": {"pos":{"S":[258,150],"OH1":[188,265],"MB1":[150,48],"OPP":[238,58],"OH2":[62,48],"MB2":[60,170]},"libero":"OH1"},
     "bs|2|off": {"pos":{"S":[258,150],"OH1":[60,170],"MB1":[150,48],"OPP":[238,58],"OH2":[62,48],"MB2":[158,267]}},
     "bs|3|left": {"pos":{"S":[238,48],"OH1":[150,267],"MB1":[150,48],"OPP":[266,172],"OH2":[88,48],"MB2":[58,207]}},
     "bs|3|mid": {"pos":{"S":[238,48],"OH1":[60,170],"MB1":[150,48],"OPP":[266,172],"OH2":[62,48],"MB2":[150,265]}},
@@ -18,14 +18,14 @@
     "bs|4|left": {"pos":{"S":[238,48],"OH1":[88,48],"MB1":[150,48],"OPP":[266,172],"OH2":[150,267],"MB2":[58,207]}},
     "bs|4|mid": {"pos":{"S":[238,48],"OH1":[62,48],"MB1":[150,48],"OPP":[266,172],"OH2":[60,170],"MB2":[150,265]}},
     "bs|4|off": {"pos":{"S":[238,48],"OH1":[62,48],"MB1":[150,48],"OPP":[266,172],"OH2":[60,170],"MB2":[150,267]}},
-    "bs|5|left": {"pos":{"S":[238,48],"OH1":[88,48],"MB1":[150,267],"OPP":[266,172],"OH2":[58,207],"MB2":[150,48]}},
-    "bs|5|mid": {"pos":{"S":[238,48],"OH1":[62,48],"MB1":[60,170],"OPP":[266,172],"OH2":[150,265],"MB2":[150,48]}},
+    "bs|5|left": {"pos":{"S":[238,48],"OH1":[88,48],"MB1":[150,267],"OPP":[266,172],"OH2":[58,207],"MB2":[150,48]},"libero":"OH2"},
+    "bs|5|mid": {"pos":{"S":[238,48],"OH1":[62,48],"MB1":[60,170],"OPP":[266,172],"OH2":[150,265],"MB2":[150,48]},"libero":"OH2"},
     "bs|5|off": {"pos":{"S":[238,48],"OH1":[62,48],"MB1":[150,267],"OPP":[266,172],"OH2":[60,170],"MB2":[150,48]}},
     "rx|0": {"pos":{"S":[265,98],"OH1":[109,39],"MB1":[231,224],"OPP":[68,224],"OH2":[149,225],"MB2":[84,64]},"highlights":[[1,6,"right"],[1,2,"behind"],[4,3,"left"]],"note":"OPP, OH2 and L pass in a line. MB2 and OH1 wait at the net, and the setter tucks in behind OH1."},
     "rx|1": {"pos":{"S":[215,102],"OH1":[250,222],"MB1":[153,223],"OPP":[197,72],"OH2":[72,219],"MB2":[230,69]},"highlights":[[6,5,"right"],[6,1,"left"],[4,5,"front"]],"note":"OH2, L and OH1 pass. OPP and MB2 wait at the net, and the setter hides behind OPP."},
-    "rx|2": {"pos":{"S":[116,95],"OH1":[150,240],"MB1":[35,72],"OPP":[238,72],"OH2":[73,214],"MB2":[230,240]},"highlights":[[3,6,"front"],[3,4,"right"],[5,6,"left"],[5,4,"behind"]],"note":"OH2 (zone 5), L and MB2 pass. MB1 and OPP wait at the net, and the setter hides at the net, left of L."},
+    "rx|2": {"pos":{"S":[116,95],"OH1":[150,240],"MB1":[35,72],"OPP":[238,72],"OH2":[73,214],"MB2":[230,240]},"libero":"OH1","highlights":[[3,6,"front"],[3,4,"right"],[5,6,"left"],[5,4,"behind"]],"note":"OH2 (zone 5), L and MB2 pass. MB1 and OPP wait at the net, and the setter hides at the net, left of L."},
     "rx|3": {"pos":{"S":[143,38],"OH1":[70,240],"MB1":[150,72],"OPP":[230,240],"OH2":[157,107],"MB2":[150,240]},"note":"OH1, L and OPP pass in a line. The setter, MB1 and OH2 stack at the center of the net so they reach base quickly."},
     "rx|4": {"pos":{"S":[222,46],"OH1":[42,56],"MB1":[245,75],"OPP":[150,240],"OH2":[230,240],"MB2":[70,240]},"note":"L, OPP and OH2 pass in a line. OH1 waits at the net on the left, and the setter and MB1 wait at the net on the right."},
-    "rx|5": {"pos":{"S":[238,72],"OH1":[92,73],"MB1":[230,240],"OPP":[70,240],"OH2":[150,240],"MB2":[75,40]},"note":"OPP, L and MB1 pass in a line. MB2 and OH1 wait at the net on the left, and the setter waits at the net on the right."}
+    "rx|5": {"pos":{"S":[238,72],"OH1":[92,73],"MB1":[230,240],"OPP":[70,240],"OH2":[150,240],"MB2":[75,40]},"libero":"OH2","note":"OPP, L and MB1 pass in a line. MB2 and OH1 wait at the net on the left, and the setter waits at the net on the right."}
   }
 }
