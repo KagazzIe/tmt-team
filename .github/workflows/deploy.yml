@@ -1,13 +1,12 @@
 name: Deploy team hub
 
-# Put this file at .github/workflows/deploy.yml in your team repo, next to
-# team.json, rotations.json and a clips/ folder. The hub code comes from
-# KagazzIe/TMT-VolleyballHub each time this runs; your repo only holds data.
+# This file builds and publishes your team's site. You don't need to edit it.
+# The hub code comes from KagazzIe/TMT-VolleyballHub each time this runs; this repo only holds data.
 #
 # Which hub version runs:
 #   v1   = stable releases (the default)
 #   main = every update as soon as it's published
-# To try main once: Actions → Deploy team hub → Run workflow → Hub version: main.
+# To try main once: Actions → Deploy team hub → Run workflow → pick "main" as the hub version.
 #   The next normal deploy (a data upload or the Monday run) goes back to your saved setting.
 # To stay on main: Settings → Secrets and variables → Actions → Variables → HUB_VERSION = main.
 
@@ -36,10 +35,12 @@ concurrency:
   cancel-in-progress: false
 
 # GitHub needs the @version written out, so there is one job per version and only one runs.
+# Neither runs in the template repo itself, or on the first commit of a repo made from it
+# (Pages isn't switched on yet then, so that run could only fail).
 jobs:
   stable:
     name: Deploy (hub v1)
-    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.hub_version != 'saved setting' && inputs.hub_version || vars.HUB_VERSION || 'v1') != 'main' }}
+    if: ${{ !github.event.repository.is_template && !(github.event_name == 'push' && github.run_number == 1) && (github.event_name == 'workflow_dispatch' && inputs.hub_version != 'saved setting' && inputs.hub_version || vars.HUB_VERSION || 'v1') != 'main' }}
     uses: KagazzIe/TMT-VolleyballHub/.github/workflows/deploy.yml@v1
     with:
       # Leave TEAM_DATA_REPO unset to use this repo's own files.
@@ -48,7 +49,7 @@ jobs:
 
   latest:
     name: Deploy (hub main)
-    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.hub_version != 'saved setting' && inputs.hub_version || vars.HUB_VERSION || 'v1') == 'main' }}
+    if: ${{ !github.event.repository.is_template && !(github.event_name == 'push' && github.run_number == 1) && (github.event_name == 'workflow_dispatch' && inputs.hub_version != 'saved setting' && inputs.hub_version || vars.HUB_VERSION || 'v1') == 'main' }}
     uses: KagazzIe/TMT-VolleyballHub/.github/workflows/deploy.yml@main
     with:
       team_data_repo: ${{ vars.TEAM_DATA_REPO }}
