@@ -1,10 +1,10 @@
-# TMT: Volleyball Hub — team data (private)
+# tmt-team
 
-Team-specific data for https://kagazzie.github.io/TMT-VolleyballHub/. Keep this repo **private**.
-The public site repo pulls these files in at deploy time; every push here triggers a redeploy.
+Team of Misfit Toys site: https://kagazzie.github.io/tmt-team/
 
-- `team.json`: team name and roster (used by the hub and Clip Marker)
-- `rotations.json`: rotation guide positions (Edit positions → Export JSON)
+Built from [TMT: Volleyball Hub](https://github.com/KagazzIe/TMT-VolleyballHub) (`@v1`). This repo holds our data;
+pushing to `main` redeploys the site.
+
+- `team.json`: team name and roster (used by the hub page and Clip Marker)
+- `rotations.json`: rotation guide positions (Edit positions → Export JSON, then replace this file)
 - `clips/`: one JSON per game, exported from Clip Marker
-
-Requires the `TEAM_DATA_TOKEN` Actions secret (see the site repo's README).

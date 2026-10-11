@@ -1,0 +1,34 @@
+name: Deploy team hub
+
+# Put this file at .github/workflows/deploy.yml in your team repo, next to
+# team.json, rotations.json and a clips/ folder. The hub code comes from
+# KagazzIe/TMT-VolleyballHub each time this runs; your repo only holds data.
+#
+# @v1   = stable releases (recommended)
+# @main = every update as soon as it's published
+
+on:
+  push:
+    branches: [main]          # uploading data redeploys the site
+  schedule:
+    - cron: '17 9 * * 1'      # Mondays: pick up hub updates
+  workflow_dispatch:
+  repository_dispatch:
+    types: [team-data-updated]   # only used with a separate private data repo
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    uses: KagazzIe/TMT-VolleyballHub/.github/workflows/deploy.yml@v1
+    with:
+      # Leave TEAM_DATA_REPO unset to use this repo's own files.
+      team_data_repo: ${{ vars.TEAM_DATA_REPO }}
+    secrets: inherit
