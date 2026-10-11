@@ -4,8 +4,12 @@ name: Deploy team hub
 # team.json, rotations.json and a clips/ folder. The hub code comes from
 # KagazzIe/TMT-VolleyballHub each time this runs; your repo only holds data.
 #
-# @v1   = stable releases (recommended)
-# @main = every update as soon as it's published
+# Which hub version runs:
+#   v1   = stable releases (the default)
+#   main = every update as soon as it's published
+# To try main once: Actions → Deploy team hub → Run workflow → Hub version: main.
+#   The next normal deploy (a data upload or the Monday run) goes back to your saved setting.
+# To stay on main: Settings → Secrets and variables → Actions → Variables → HUB_VERSION = main.
 
 on:
   push:
@@ -13,6 +17,12 @@ on:
   schedule:
     - cron: '17 9 * * 1'      # Mondays: pick up hub updates
   workflow_dispatch:
+    inputs:
+      hub_version:
+        description: Hub version
+        type: choice
+        options: [saved setting, v1, main]
+        default: saved setting
   repository_dispatch:
     types: [team-data-updated]   # only used with a separate private data repo
 
@@ -25,10 +35,21 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# GitHub needs the @version written out, so there is one job per version and only one runs.
 jobs:
-  deploy:
+  stable:
+    name: Deploy (hub v1)
+    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.hub_version != 'saved setting' && inputs.hub_version || vars.HUB_VERSION || 'v1') != 'main' }}
     uses: KagazzIe/TMT-VolleyballHub/.github/workflows/deploy.yml@v1
     with:
       # Leave TEAM_DATA_REPO unset to use this repo's own files.
+      team_data_repo: ${{ vars.TEAM_DATA_REPO }}
+    secrets: inherit
+
+  latest:
+    name: Deploy (hub main)
+    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.hub_version != 'saved setting' && inputs.hub_version || vars.HUB_VERSION || 'v1') == 'main' }}
+    uses: KagazzIe/TMT-VolleyballHub/.github/workflows/deploy.yml@main
+    with:
       team_data_repo: ${{ vars.TEAM_DATA_REPO }}
     secrets: inherit
