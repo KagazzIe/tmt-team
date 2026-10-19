@@ -1,7 +1,7 @@
 {
   "format": "tmt-rotations",
   "version": 3,
-  "updated": 1792443971978,
+  "updated": 1792444118363,
   "views": {
     "bs|0|mid": {"pos":{"S":[258,150],"OH1":[62,48],"MB1":[188,265],"OPP":[238,58],"OH2":[60,170],"MB2":[150,48]}},
     "bs|0|off": {"pos":{"S":[258,150],"OH1":[62,48],"MB1":[158,267],"OPP":[238,58],"OH2":[60,170],"MB2":[150,48]}},
@@ -19,7 +19,7 @@
     "def|dl": {"pos":{"LF":[119,59],"MF":[228,45],"RF":[262,46],"LB":[92,167],"MID":[134,239],"RB":[230,233]},"arrows":[{"pts":[[272,4],[217,120]],"dash":true}]},
     "def|dr": {"pos":{"LF":[49,43],"MF":[85,43],"RF":[190,81],"LB":[83,224],"MID":[192,228],"RB":[239,169]},"arrows":[{"pts":[[42,4],[106,103]],"dash":true}]},
     "rx|0": {"pos":{"S":[263,220],"OH1":[218,204],"MB1":[151,231],"OPP":[41,88],"OH2":[77,204],"MB2":[189,95]},"highlights":[[1,2,"behind"]],"arrows":[{"from":"OPP","pts":[[10,152],[9,62]]},{"from":"MB2","pts":[[155,160],[149,88]]},{"from":"OH1","pts":[[278,129],[276,88],[252,44]]}],"note":"OH2, L and OH1 pass. OPP waits at the net on the left and MB2 in the middle, and the setter tucks in behind OH1."},
-    "rx|1": {"pos":{"S":[207,90],"OH1":[223,214],"MB1":[147,235],"OPP":[196,50],"OH2":[78,214],"MB2":[238,123]},"highlights":[[6,1,"left"]],"arrows":[{"from":"OH2","pts":[[16,113],[30,49]]},{"from":"MB2","pts":[[155,164],[146,95]]},{"from":"OPP","pts":[[273,29],[282,100],[276,159],[291,100]]}],"note":"OH2, L and OH1 pass. OPP and MB2 wait at the net on the right, and the setter hides behind OPP."},
+    "rx|1": {"pos":{"S":[207,90],"OH1":[223,214],"MB1":[147,235],"OPP":[196,50],"OH2":[78,214],"MB2":[238,123]},"highlights":[[6,1,"left"]],"arrows":[{"from":"OH2","pts":[[16,113],[30,49]]},{"from":"MB2","pts":[[155,164],[146,95]]},{"from":"OPP","pts":[[240,67],[263,143],[269,57]]}],"note":"OH2, L and OH1 pass. OPP and MB2 wait at the net on the right, and the setter hides behind OPP."},
     "rx|2": {"pos":{"S":[125,94],"OH1":[160,251],"MB1":[63,85],"OPP":[231,87],"OH2":[78,225],"MB2":[229,230]},"highlights":[[4,3,"left"],[5,4,"behind"]],"arrows":[{"from":"OH2","pts":[[14,110],[28,61]]},{"from":"MB1","pts":[[127,154],[147,112]]},{"from":"S","pts":[[175,60]]},{"from":"OPP","pts":[[291,189],[274,85]]}],"note":"OH2, OH1 and L pass. MB1 and the setter wait at the net on the left, and OPP waits at the net on the right."},
     "rx|3": {"pos":{"S":[31,37],"OH1":[71,234],"MB1":[44,66],"OPP":[232,236],"OH2":[60,95],"MB2":[153,235]},"highlights":[[4,3,"left"],[3,2,"left"]],"arrows":[{"from":"S","pts":[[195,54]]},{"from":"MB1","pts":[[142,152],[147,94]]},{"from":"OH2","pts":[[14,138],[20,63]]},{"from":"OPP","pts":[[263,197],[269,141]]}],"note":"OH2, OH1 and L pass, with OPP back on the right. The setter and MB1 wait at the net on the left, and the setter runs right to set."},
     "rx|4": {"pos":{"S":[260,41],"OH1":[53,62],"MB1":[272,75],"OPP":[154,217],"OH2":[229,219],"MB2":[72,214]},"arrows":[{"from":"OH1","pts":[[17,121],[27,44]]},{"from":"MB1","pts":[[161,152],[143,59]]},{"from":"OPP","pts":[[247,198],[261,119]]},{"from":"OH2","pts":[[202,260],[156,272]]}],"note":"OH1, L and OH2 pass, with OPP deep in the middle. The setter and MB1 wait at the net on the right."},
