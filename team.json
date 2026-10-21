@@ -1,4 +1,20 @@
 {
   "name": "Team of Misfit Toys",
-  "roster": ["Anoop", "Daniel", "Emily", "Eve", "Furugh", "Joe", "Jon"]
+  "roster": [
+    "Anoop",
+    "Daniel",
+    "Emily",
+    "Eve",
+    "Furugh",
+    "Joe",
+    "Jon"
+  ],
+  "labels": [
+    "Serve",
+    "Receive",
+    "Set",
+    "Hit",
+    "Block",
+    "Funny"
+  ]
 }
