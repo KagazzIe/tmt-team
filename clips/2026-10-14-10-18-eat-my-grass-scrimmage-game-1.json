@@ -1,0 +1,930 @@
+{
+  "version": 3,
+  "game": {
+    "id": "7zigw0tq",
+    "name": "10/18 Eat My Grass Scrimmage: Game 1",
+    "date": "2026-10-14",
+    "videoId": "KmSTwX10-lc"
+  },
+  "roster": [
+    "Anoop",
+    "Daniel",
+    "Emily",
+    "Eve",
+    "Furugh",
+    "Joe",
+    "Jon"
+  ],
+  "clips": [
+    {
+      "id": "mvhitfl5",
+      "start": 560.9,
+      "end": 570.9,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhitwoq",
+      "start": 584.3,
+      "end": 594.3,
+      "players": [
+        "Emily"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhiu958",
+      "start": 603.3,
+      "end": 613.3,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhius7w",
+      "start": 627.1,
+      "end": 637.1,
+      "players": [
+        "Emily"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhiv8z7",
+      "start": 636.5,
+      "end": 646.5,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhivkbh",
+      "start": 653.9,
+      "end": 663.9,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhivugr",
+      "start": 670,
+      "end": 680,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhiw1w3",
+      "start": 672.2,
+      "end": 682.2,
+      "players": [
+        "Joe"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhiwim2",
+      "start": 694.8,
+      "end": 704.8,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhiwltm",
+      "start": 696.3,
+      "end": 706.3,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhiwpty",
+      "start": 697.8,
+      "end": 707.8,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhiwtqb",
+      "start": 703.1,
+      "end": 713.1,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhixf7m",
+      "start": 740.5,
+      "end": 750.5,
+      "players": [
+        "Eve"
+      ],
+      "action": "Serve",
+      "note": ""
+    },
+    {
+      "id": "mvhixk71",
+      "start": 743.1,
+      "end": 753.1,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhixqe5",
+      "start": 745.5,
+      "end": 755.5,
+      "players": [
+        "Emily"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhiy22z",
+      "start": 766,
+      "end": 776,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhiyijx",
+      "start": 786.4,
+      "end": 796.4,
+      "players": [
+        "Emily"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhiymh6",
+      "start": 789.3,
+      "end": 799.3,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhiyqnw",
+      "start": 789.6,
+      "end": 799.6,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhiyv1w",
+      "start": 794.2,
+      "end": 804.2,
+      "players": [
+        "Anoop",
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhiz4mo",
+      "start": 794.9,
+      "end": 804.9,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhizfph",
+      "start": 813.4,
+      "end": 823.4,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhizqaz",
+      "start": 829.5,
+      "end": 839.5,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj03ta",
+      "start": 831.3,
+      "end": 841.3,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj06p2",
+      "start": 833,
+      "end": 843,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj0h8p",
+      "start": 848,
+      "end": 858,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj0ka5",
+      "start": 849.5,
+      "end": 859.5,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj0o6a",
+      "start": 851,
+      "end": 861,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj0s7u",
+      "start": 855.7,
+      "end": 865.7,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhj0xzr",
+      "start": 861.4,
+      "end": 871.4,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhj10l2",
+      "start": 863.5,
+      "end": 873.5,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj1ba1",
+      "start": 864.7,
+      "end": 874.7,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj1e6i",
+      "start": 866,
+      "end": 876,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj1xtc",
+      "start": 899.7,
+      "end": 909.7,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Serve",
+      "note": ""
+    },
+    {
+      "id": "mvhj29og",
+      "start": 924.4,
+      "end": 934.4,
+      "players": [
+        "Emily"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj2ivw",
+      "start": 941.4,
+      "end": 951.4,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj2nf7",
+      "start": 943.6,
+      "end": 953.6,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj2ssm",
+      "start": 944.3,
+      "end": 954.3,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj3i8v",
+      "start": 947.3,
+      "end": 957.3,
+      "players": [
+        "Joe"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj3pmn",
+      "start": 949.7,
+      "end": 959.7,
+      "players": [
+        "Eve"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj3ufq",
+      "start": 950.9,
+      "end": 960.9,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj428f",
+      "start": 955.1,
+      "end": 965.1,
+      "players": [
+        "Daniel",
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhj464r",
+      "start": 957,
+      "end": 967,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj4asw",
+      "start": 957,
+      "end": 967,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj4gxi",
+      "start": 959,
+      "end": 969,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj54g0",
+      "start": 1011.8,
+      "end": 1021.8,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Serve",
+      "note": ""
+    },
+    {
+      "id": "mvhj57yy",
+      "start": 1014.5,
+      "end": 1024.5,
+      "players": [
+        "Jon"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhj5cqq",
+      "start": 1017.2,
+      "end": 1027.2,
+      "players": [
+        "Eve"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj5g6u",
+      "start": 1017.9,
+      "end": 1027.9,
+      "players": [
+        "Jon"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj5jaj",
+      "start": 1018.8,
+      "end": 1028.8,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj5o9b",
+      "start": 1022.9,
+      "end": 1032.9,
+      "players": [
+        "Joe",
+        "Jon"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhj68wi",
+      "start": 1063,
+      "end": 1073,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj6r4n",
+      "start": 1063.9,
+      "end": 1073.9,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj6vnj",
+      "start": 1065.1,
+      "end": 1075.1,
+      "players": [
+        "Joe"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj765o",
+      "start": 1076.8,
+      "end": 1086.8,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj7dqo",
+      "start": 1090.1,
+      "end": 1100.1,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj7nhh",
+      "start": 1091.4,
+      "end": 1101.4,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj7ppu",
+      "start": 1092.6,
+      "end": 1102.6,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj7uq1",
+      "start": 1094.8,
+      "end": 1104.8,
+      "players": [
+        "Joe"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj7y8t",
+      "start": 1095.7,
+      "end": 1105.7,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj81rq",
+      "start": 1097.8,
+      "end": 1107.8,
+      "players": [
+        "Joe"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj88bu",
+      "start": 1100.6,
+      "end": 1110.6,
+      "players": [
+        "Jon"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhj8c5w",
+      "start": 1101.7,
+      "end": 1111.7,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj8ewp",
+      "start": 1103,
+      "end": 1113,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhj8iip",
+      "start": 1104.4,
+      "end": 1114.4,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhj8rx6",
+      "start": 1121.4,
+      "end": 1131.4,
+      "players": [],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj93o0",
+      "start": 1132.9,
+      "end": 1142.9,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj9bgn",
+      "start": 1147.8,
+      "end": 1157.8,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj9fhn",
+      "start": 1154.1,
+      "end": 1164.1,
+      "players": [
+        "Emily"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj9ndm",
+      "start": 1166.6,
+      "end": 1176.6,
+      "players": [
+        "Emily"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhj9xy4",
+      "start": 1182.9,
+      "end": 1192.9,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhja5mv",
+      "start": 1184.7,
+      "end": 1194.7,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhjacox",
+      "start": 1186,
+      "end": 1196,
+      "players": [
+        "Joe"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhjagl1",
+      "start": 1189.7,
+      "end": 1199.7,
+      "players": [
+        "Jon"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhjajig",
+      "start": 1191.4,
+      "end": 1201.4,
+      "players": [
+        "Emily"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhjam7k",
+      "start": 1192.4,
+      "end": 1202.4,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhjapyj",
+      "start": 1193.4,
+      "end": 1203.4,
+      "players": [
+        "Joe"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhjb9hk",
+      "start": 1210.5,
+      "end": 1220.5,
+      "players": [],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhjbgou",
+      "start": 1225.6,
+      "end": 1235.6,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhjbjme",
+      "start": 1226.8,
+      "end": 1236.8,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhjbm4v",
+      "start": 1227.9,
+      "end": 1237.9,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhjc15o",
+      "start": 1258.2,
+      "end": 1268.2,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Serve",
+      "note": ""
+    },
+    {
+      "id": "mvhjc6n4",
+      "start": 1259.9,
+      "end": 1269.9,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhjccdg",
+      "start": 1265.1,
+      "end": 1275.1,
+      "players": [
+        "Jon"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhjcuo3",
+      "start": 1321.3,
+      "end": 1331.3,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Serve",
+      "note": ""
+    },
+    {
+      "id": "mvhjczmk",
+      "start": 1325.4,
+      "end": 1335.4,
+      "players": [
+        "Eve",
+        "Jon"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhjdakn",
+      "start": 1345.4,
+      "end": 1355.4,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Serve",
+      "note": ""
+    },
+    {
+      "id": "mvhjdk0b",
+      "start": 1364.8,
+      "end": 1374.8,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Serve",
+      "note": ""
+    },
+    {
+      "id": "mvhjdofl",
+      "start": 1368.7,
+      "end": 1378.7,
+      "players": [
+        "Jon"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhjdz6g",
+      "start": 1390.8,
+      "end": 1400.8,
+      "players": [
+        "Anoop"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhje3s9",
+      "start": 1396.6,
+      "end": 1406.6,
+      "players": [
+        "Daniel"
+      ],
+      "action": "Receive",
+      "note": ""
+    }
+  ]
+}
