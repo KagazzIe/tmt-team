@@ -1,0 +1,458 @@
+{
+  "version": 3,
+  "game": {
+    "id": "brw5z3ji",
+    "name": "10/18 Eat My Grass Scrimmage: Breaktime",
+    "date": "2026-10-18",
+    "videoId": "KmSTwX10-lc"
+  },
+  "roster": [
+    "Anoop",
+    "Daniel",
+    "Emily",
+    "Eve",
+    "Furugh",
+    "Joe",
+    "Jon"
+  ],
+  "clips": [
+    {
+      "id": "mvhkfz18",
+      "start": 2861.8,
+      "end": 2871.8,
+      "players": [],
+      "action": "Funny",
+      "note": "What is this skip that Jay does? lmao"
+    },
+    {
+      "id": "mvhkgtnf",
+      "start": 2970.5,
+      "end": 2980.5,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkgvwt",
+      "start": 2971.4,
+      "end": 2981.4,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkh11o",
+      "start": 2981.7,
+      "end": 2991.7,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkh3ae",
+      "start": 2982.6,
+      "end": 2992.6,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkh7et",
+      "start": 2983.3,
+      "end": 2993.3,
+      "players": [
+        "Emily"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhkhe7e",
+      "start": 2995.1,
+      "end": 3005.1,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkhi1z",
+      "start": 2995.8,
+      "end": 3005.8,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkhmvq",
+      "start": 2995.8,
+      "end": 3005.8,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhkhtn6",
+      "start": 3004.9,
+      "end": 3014.9,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkhvd7",
+      "start": 3005.7,
+      "end": 3015.7,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkhxy7",
+      "start": 3005.7,
+      "end": 3015.7,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhki5gs",
+      "start": 3008.1,
+      "end": 3018.1,
+      "players": [
+        "Emily"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mvhkie0h",
+      "start": 3013.3,
+      "end": 3023.3,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkihhf",
+      "start": 3013.9,
+      "end": 3023.9,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkijpv",
+      "start": 3013.9,
+      "end": 3023.9,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhkiwxj",
+      "start": 3041.4,
+      "end": 3051.4,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkj2es",
+      "start": 3047.6,
+      "end": 3057.6,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkj4wb",
+      "start": 3048.2,
+      "end": 3058.2,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkj8t5",
+      "start": 3048.2,
+      "end": 3058.2,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhkjggb",
+      "start": 3059.5,
+      "end": 3069.5,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkjio3",
+      "start": 3060.1,
+      "end": 3070.1,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkjq0f",
+      "start": 3060.7,
+      "end": 3070.7,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhkju3m",
+      "start": 3065.8,
+      "end": 3075.8,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkjwxo",
+      "start": 3066.5,
+      "end": 3076.5,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkjz4s",
+      "start": 3067.2,
+      "end": 3077.2,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhkk5qk",
+      "start": 3078.4,
+      "end": 3088.4,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkkcg5",
+      "start": 3079.3,
+      "end": 3089.3,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkkfbj",
+      "start": 3079.3,
+      "end": 3089.3,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhkkl91",
+      "start": 3086.1,
+      "end": 3096.1,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkknxt",
+      "start": 3087,
+      "end": 3097,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkkqve",
+      "start": 3087.6,
+      "end": 3097.6,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhkkv4u",
+      "start": 3097.3,
+      "end": 3107.3,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkkzln",
+      "start": 3098.1,
+      "end": 3108.1,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkl3cz",
+      "start": 3098.6,
+      "end": 3108.6,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhkl93x",
+      "start": 3110,
+      "end": 3120,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhklerf",
+      "start": 3110.8,
+      "end": 3120.8,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkliwv",
+      "start": 3111.5,
+      "end": 3121.5,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhklp3p",
+      "start": 3124.4,
+      "end": 3134.4,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhklr8a",
+      "start": 3125.3,
+      "end": 3135.3,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhklsr6",
+      "start": 3125.3,
+      "end": 3135.3,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    },
+    {
+      "id": "mvhkm7g2",
+      "start": 3158,
+      "end": 3168,
+      "players": [
+        "Eve"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mvhkmche",
+      "start": 3158.8,
+      "end": 3168.8,
+      "players": [
+        "Jon"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mvhkmezz",
+      "start": 3158.8,
+      "end": 3168.8,
+      "players": [
+        "Furugh"
+      ],
+      "action": "Block",
+      "note": ""
+    }
+  ]
+}
