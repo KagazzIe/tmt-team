@@ -1,10 +1,22 @@
 {
-  "version": 3,
+  "version": 4,
   "game": {
     "id": "brw5z3ji",
     "name": "10/18 Eat My Grass Scrimmage: Breaktime",
     "date": "2026-10-18",
-    "videoId": "KmSTwX10-lc"
+    "videoId": "KmSTwX10-lc",
+    "videos": [
+      {
+        "id": "KmSTwX10-lc",
+        "label": "",
+        "at": 0
+      },
+      {
+        "id": "VgCfAVENtxQ",
+        "label": "",
+        "at": 0
+      }
+    ]
   },
   "roster": [
     "Anoop",
