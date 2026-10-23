@@ -1,10 +1,22 @@
 {
-  "version": 3,
+  "version": 4,
   "game": {
     "id": "biwve7af",
     "name": "10/18 Eat My Grass Scrimmage: Game 2",
     "date": "2026-10-18",
-    "videoId": "KmSTwX10-lc"
+    "videoId": "VgCfAVENtxQ",
+    "videos": [
+      {
+        "id": "VgCfAVENtxQ",
+        "label": "",
+        "at": 0
+      },
+      {
+        "id": "KmSTwX10-lc",
+        "label": "",
+        "at": 0
+      }
+    ]
   },
   "roster": [
     "Anoop",
